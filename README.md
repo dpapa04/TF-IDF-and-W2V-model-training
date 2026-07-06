@@ -66,23 +66,23 @@ In the case of the Word2Vec model the learning curves appear to be significantly
                  precision    recall  f1-score   support
 
     Ambivalent       0.70      0.65      0.67       306
-    Clear Non-Reply       0.48      0.63      0.54        54
-    Clear Reply       0.48      0.49      0.48       158
+    Clear Non-Reply  0.48      0.63      0.54        54
+    Clear Reply      0.48      0.49      0.48       158
 
        accuracy                           0.60       518
       macro avg       0.55      0.59      0.57       518
-    weighted avg       0.61      0.60      0.60       518
+    weighted avg      0.61      0.60      0.60       518
 
 === W2V ===
                  precision    recall  f1-score   support
 
      Ambivalent       0.68      0.67      0.67       306
-    Clear Non-Reply       0.32      0.56      0.41        54
+    Clear Non-Reply   0.32      0.56      0.41        54
     Clear Reply       0.43      0.33      0.37       158
 
        accuracy                           0.55       518
       macro avg       0.47      0.52      0.48       518
-     weighted avg       0.56      0.55      0.55       518
+     weighted avg     0.56      0.55      0.55       518
 
 TF-IDF with Logistic Regression outperformed the Word2Vec-based approach across all evaluation metrics, achieving a macro F1 of 0.57 compared to 0.48. Despite exhibiting overfitting, TF-IDF is the clearly the better model to use for the agent. The performance loss is most likely due to the avaraging function that takes place in the Word2Vec model as small words that completely change the meaning of a sentence sometimes get lost.
 
