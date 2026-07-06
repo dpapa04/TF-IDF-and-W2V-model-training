@@ -32,6 +32,7 @@ Logistic Regression regularisation strength C was tuned trying to input values [
 
 5.2 Learning Curves
 TF-IDF Model
+
 10% training data — Train F1: 0.96 | Val F1: 0.38
 20% training data — Train F1: 0.94 | Val F1: 0.43
 30% training data — Train F1: 0.92 | Val F1: 0.43
@@ -47,6 +48,7 @@ The TF-IDF learning curves reveal significant overfitting. Training F1 starts at
 
 
 Word2Vec Model
+
 10% training data — Train F1: 0.64 | Val F1: 0.44
 20% training data — Train F1: 0.56 | Val F1: 0.40
 30% training data — Train F1: 0.54 | Val F1: 0.44
@@ -62,6 +64,7 @@ Word2Vec Model
 In the case of the Word2Vec model the learning curves appear to be significantly worse than the ones in the TF-IDF model. Training F1 starts at 0.64 with 10% of data and decreases steadily to 0.52 at 100%, while validation F1 pivots around 0.40-0.48. Despite the model showing no sign of overfitting compared to the earlier one the clear drop in performance makes it unsuitable for selection. Custom weights were utilized although they were ineffective since the worsened the performance further.
 
 5.3 Final Validation Performance
+
 === TF-IDF ===
                  precision    recall  f1-score   support
 
