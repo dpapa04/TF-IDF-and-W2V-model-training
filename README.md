@@ -1,4 +1,4 @@
-Response Clarity Classification in Political QA Pairs
+## Response Clarity Classification in Political QA Pairs
 
 1. Introduction
 The task is focused on creating an agent who has the ability to classify political Question-Answer pairs into three distinct clarity labels (Clear Reply, Ambivalent, Clear Non-Reply) using two representations: 
